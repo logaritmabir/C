@@ -102,7 +102,7 @@ void indexata()         //Sıralanmamış şekilde bağlanan bağlı listeye ind
     aktarma2->indeks=sayac;
 }
 
-void faturayagoreindexlistesi()     //Faturayı büyükten küçüğe doğru yazdırma
+void faturayagoreindexlistesi()     //Listeyi fatura sırasına göre düzenleyen fonksiyon
 {
     int i,f1,f2,i1,i2;
     char n1[8],n2[8];
@@ -114,7 +114,7 @@ void faturayagoreindexlistesi()     //Faturayı büyükten küçüğe doğru yaz
         {
             if(aktarma2->fatura <= aktarma2->sonraki->fatura)
             {
-                f1 = aktarma2->fatura;
+                f1 = aktarma2->fatura;                          //Elemanların değiştirilmesi
                 f2 = aktarma2->sonraki->fatura;
                 i1 = aktarma2->indeks;
                 i2 = aktarma2->sonraki->indeks;
