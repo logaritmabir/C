@@ -46,7 +46,7 @@ int main(void)
     indeksileyazdir();
 
 }
-void musteriekle(char isim[8],int fatura)       //Müşterilerilerden bağlı liste oluşturan fonksiyon
+void musteriekle(char isim[8],int fatura)       //Müşterilerilerden bağlı liste oluşturan fonksiyon//EKLE-1 
 {
     struct musteri *musteri;
     musteri = (struct musteri *)malloc(sizeof(struct musteri));
@@ -102,7 +102,7 @@ void indexata()         //Sıralanmamış şekilde bağlanan bağlı listeye ind
     aktarma2->indeks=sayac;
 }
 
-void faturayagoreindexlistesi()     //Listeyi fatura sırasına göre düzenleyen fonksiyon
+void faturayagoreindexlistesi()     //Listeyi fatura sırasına göre düzenleyen fonksiyon // EKLE3
 {
     int i,f1,f2,i1,i2;
     char n1[8],n2[8];
