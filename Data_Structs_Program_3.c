@@ -13,7 +13,6 @@ void add_stick3(int number);
 void printstick1();
 void printstick2();
 void printstick3();
-void printallsticks();
 void moveto1(struct stack *topa);
 void moveto2(struct stack *topa);
 void moveto3(struct stack *topa);
