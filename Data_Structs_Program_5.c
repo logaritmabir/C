@@ -134,7 +134,7 @@ void insertBST(struct BST *root,int index)      //BST ye eleman ekler
         printf("Yeter artik biktim usandim");
     }
 }
-void deletionBST(struct BST *node,int index)        //Agacı silinme kuralına gore düzenleyebilir fakat istenilen indisi silemez,sadece -1 e esitler ((((
+void deletionBST(struct BST *node,int index)        //Agacı silinme kuralına gore düzenleyebilir fakat yerine geçen  indisin eski adresini silemez  -1 e esitler ((((
 {
     struct BST *temp = NULL;
     temp = traversalBST(node,index);        //Silinmek istenen indexin adresi
